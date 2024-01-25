@@ -12,3 +12,10 @@ function mystery(a) {
     else return a[0];
 }
 ```
+## My Answer
+
+<p>This mystery function recursively finds the greatest element in a list, where the base case of one element returns said element. The recursive part of the function comes from the declaration of "foo", where the function executes its code with the list abridged by one. The return value of "foo" is then check if it is greater than the first list element, and returns the function return value if true and the first list element if false.<br>
+
+Sources:<br>
+
+https://www.markdownguide.org/basic-syntax/
